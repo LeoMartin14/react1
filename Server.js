@@ -540,8 +540,9 @@ app.get('/api/people', function (req, res, next) {
     });
 });
 
-
+// -------------------------------
 // React Middleware
+// -------------------------------
 app.use(function (req, res) {
     Router.match({
         routes: routes.default,
